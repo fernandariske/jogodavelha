@@ -10,13 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f7f7f7;
+    background: #2fb7cf;
   }
  
   main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    background-color: rgb(8, 138, 138);
   }
  
   h1 {
@@ -33,6 +34,7 @@
   .game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(8, 138, 138);
   }
  
   .game button {
@@ -41,5 +43,5 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #f7f7f7;
+    background: #2288cc;
   }
